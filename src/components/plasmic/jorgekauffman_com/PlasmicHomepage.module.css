@@ -1,0 +1,55 @@
+.root {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 0;
+  min-height: 0;
+  background: #ffffff;
+}
+.header:global(.__wab_instance) {
+  position: relative;
+}
+.landing:global(.__wab_instance) {
+  position: relative;
+}
+.how:global(.__wab_instance) {
+  position: relative;
+  width: auto;
+}
+.why:global(.__wab_instance) {
+  position: relative;
+}
+.skill:global(.__wab_instance) {
+  position: relative;
+}
+.thinking:global(.__wab_instance) {
+  position: relative;
+}
+.clients:global(.__wab_instance) {
+  position: relative;
+}
+.svg__qkqhK {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__twClu {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.cta:global(.__wab_instance) {
+  position: relative;
+}
+.testimonials:global(.__wab_instance) {
+  position: relative;
+}
+.footer:global(.__wab_instance) {
+  position: relative;
+}

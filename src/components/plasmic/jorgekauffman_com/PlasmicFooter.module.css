@@ -1,0 +1,33 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  width: 100%;
+  min-width: 0;
+}
+.box__dp7Jw {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+}
+.box__bchV {
+  position: relative;
+  align-self: auto;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  align-self: auto;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}
+.box__edRJ {
+  position: relative;
+}

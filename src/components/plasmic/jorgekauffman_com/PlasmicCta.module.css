@@ -1,0 +1,35 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.box__iOi1 {
+  position: relative;
+}
+.box__mNwI6 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  color: #8224e3 /* plasmic-token: ra9Gw4w7h */;
+  align-self: center;
+  flex-shrink: 0;
+  height: 1em;
+}
+.link {
+  display: flex;
+  flex-direction: column;
+}
+.box__pKxUi {
+  position: relative;
+  text-align: center;
+  align-self: center;
+}

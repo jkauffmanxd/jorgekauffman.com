@@ -1,0 +1,32 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.img {
+  position: relative;
+  object-fit: fill;
+  object-position: center top;
+  width: 2em;
+  height: auto;
+  align-self: center;
+}
+.portfolio {
+  position: relative;
+  height: auto;
+  color: #535353 /* plasmic-token: 9LDvOe-gg */;
+}
+.root:hover .portfolio {
+  color: #8224e3 /* plasmic-token: ra9Gw4w7h */;
+}
+.home {
+  position: relative;
+}
+.home__portfolio {
+  align-self: center;
+  width: 2em;
+  height: auto;
+  background: url("./images/image.png") 0% 0% / contain;
+}

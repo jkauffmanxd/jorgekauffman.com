@@ -1,0 +1,52 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  min-width: 0;
+  padding: 1em;
+}
+.box__vYkOy {
+  position: relative;
+}
+.box__n9Cq {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-self: center;
+  align-content: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  padding: 0em;
+  margin: 0px;
+}
+.slotChildren {
+  text-align: center;
+  font-size: 3em;
+}
+.svg__maExI {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}
+.slotChildren2 {
+  text-align: center;
+  font-size: 3em;
+}
+.svg__tnx2 {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}
