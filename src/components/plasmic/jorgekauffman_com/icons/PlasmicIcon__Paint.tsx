@@ -5,11 +5,11 @@
 import React from "react"
 import { classNames } from "@plasmicapp/react-web"
 
-export type Icon3IconProps = React.ComponentProps<"svg"> & {
+export type PaintIconProps = React.ComponentProps<"svg"> & {
   title?: string
 }
 
-export function Icon3Icon(props: Icon3IconProps) {
+export function PaintIcon(props: PaintIconProps) {
   const { className, style, title, ...restProps } = props
   return (
     <svg
@@ -30,12 +30,12 @@ export function Icon3Icon(props: Icon3IconProps) {
         strokeLinejoin={"round"}
         strokeWidth={"2"}
         d={
-          "M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5"
+          "M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
         }
       ></path>
     </svg>
   )
 }
 
-export default Icon3Icon
+export default PaintIcon
 /* prettier-ignore-end */

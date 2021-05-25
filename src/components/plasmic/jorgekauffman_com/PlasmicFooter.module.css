@@ -7,14 +7,24 @@
   flex-wrap: nowrap;
   width: 100%;
   min-width: 0;
+  padding: 0.5em /* plasmic-token: MmbfocG2p */;
 }
 .box__dp7Jw {
   display: flex;
   position: relative;
   flex-direction: row;
+  align-self: center;
+}
+.box__dp7Jw > :global(.__wab_flex-container) {
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  align-self: flex-end;
+  margin-left: calc(0px - 0.5em /* plasmic-token: MmbfocG2p */);
+  width: calc(100% + 0.5em /* plasmic-token: MmbfocG2p */);
+}
+.box__dp7Jw > :global(.__wab_flex-container) > *,
+.box__dp7Jw > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 0.5em /* plasmic-token: MmbfocG2p */;
 }
 .box__bchV {
   position: relative;

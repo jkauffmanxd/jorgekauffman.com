@@ -2,7 +2,8 @@
   "platform": "gatsby",
   "code": {
     "lang": "ts",
-    "scheme": "blackbox"
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
   },
   "style": {
     "scheme": "css-modules",
@@ -66,19 +67,6 @@
           "componentType": "component"
         },
         {
-          "id": "L4-sxOI14B",
-          "name": "Header",
-          "type": "managed",
-          "projectId": "ajBd7QwKoQEZw4eSnuM8eE",
-          "renderModuleFilePath": "plasmic/jorgekauffman_com/PlasmicHeader.tsx",
-          "importSpec": {
-            "modulePath": "Header.tsx"
-          },
-          "cssFilePath": "plasmic/jorgekauffman_com/PlasmicHeader.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
           "id": "DzWC2yemzg",
           "name": "How",
           "type": "managed",
@@ -119,14 +107,14 @@
         },
         {
           "id": "V29gw2H4lR",
-          "name": "Skill",
+          "name": "Offering",
           "type": "managed",
           "projectId": "ajBd7QwKoQEZw4eSnuM8eE",
-          "renderModuleFilePath": "plasmic/jorgekauffman_com/PlasmicSkill.tsx",
+          "renderModuleFilePath": "plasmic/jorgekauffman_com/PlasmicOffering.tsx",
           "importSpec": {
             "modulePath": "Skill.tsx"
           },
-          "cssFilePath": "plasmic/jorgekauffman_com/PlasmicSkill.module.css",
+          "cssFilePath": "plasmic/jorgekauffman_com/PlasmicOffering.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         },
@@ -194,13 +182,26 @@
           "cssFilePath": "plasmic/jorgekauffman_com/PlasmicTestimonials.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "SZVtHIOnzF",
+          "name": "Header",
+          "type": "managed",
+          "projectId": "ajBd7QwKoQEZw4eSnuM8eE",
+          "renderModuleFilePath": "plasmic/jorgekauffman_com/PlasmicHeader.tsx",
+          "importSpec": {
+            "modulePath": "Header.tsx"
+          },
+          "cssFilePath": "plasmic/jorgekauffman_com/PlasmicHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
         {
           "id": "cLvmR5WL_E",
-          "name": "IconIcon",
-          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Icon.tsx"
+          "name": "NewspaperIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Newspaper.tsx"
         },
         {
           "id": "-hYKTQDUi-",
@@ -209,28 +210,28 @@
         },
         {
           "id": "SKEqvyu_NL",
-          "name": "Icon3Icon",
-          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Icon3.tsx"
+          "name": "MatrixIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Matrix.tsx"
         },
         {
           "id": "MRX__q9AVG",
-          "name": "Icon4Icon",
-          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Icon4.tsx"
+          "name": "MoneyIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Money.tsx"
         },
         {
           "id": "DVc11YrLFH",
-          "name": "Icon5Icon",
-          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Icon5.tsx"
+          "name": "ChatIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Chat.tsx"
         },
         {
           "id": "FePj_Q3I0I",
-          "name": "Icon6Icon",
-          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Icon6.tsx"
+          "name": "GraduateIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Graduate.tsx"
         },
         {
           "id": "KVxmohl6M2",
-          "name": "Icon7Icon",
-          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Icon7.tsx"
+          "name": "PaintIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Paint.tsx"
         },
         {
           "id": "BhBmWA559J",
@@ -261,11 +262,6 @@
           "id": "gA_cBRpq0v",
           "name": "NissansvgIcon",
           "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Nissansvg.tsx"
-        },
-        {
-          "id": "QeldbBJaLm",
-          "name": "PrivilegeLogosvgIcon",
-          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__PrivilegeLogosvg.tsx"
         },
         {
           "id": "kTi1oC2ROJ",
@@ -308,39 +304,109 @@
           "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Xssvg.tsx"
         },
         {
-          "id": "Bv1agb-DQr",
+          "id": "DI7i8q4a_B",
           "name": "BidvestsvgIcon",
           "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Bidvestsvg.tsx"
         },
         {
-          "id": "DI7i8q4a_B",
-          "name": "Bidvestsvg2Icon",
-          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Bidvestsvg2.tsx"
-        },
-        {
-          "id": "iawwi0zuLD",
+          "id": "mulXVWm8fU",
           "name": "RclsvgIcon",
           "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Rclsvg.tsx"
         },
         {
-          "id": "jcRoTbFj7n",
-          "name": "Rclsvg2Icon",
-          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Rclsvg2.tsx"
-        },
-        {
-          "id": "LTa6r0Ix_j",
-          "name": "Rclsvg3Icon",
-          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Rclsvg3.tsx"
-        },
-        {
-          "id": "mulXVWm8fU",
-          "name": "Rclsvg4Icon",
-          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Rclsvg4.tsx"
-        },
-        {
           "id": "yvc4khWb0K",
-          "name": "Icon2Icon",
-          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Icon2.tsx"
+          "name": "MailIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Mail.tsx"
+        },
+        {
+          "id": "V8kSV91ys",
+          "name": "VisualDesignersvgIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__VisualDesignersvg.tsx"
+        },
+        {
+          "id": "yKZIrPKYDm",
+          "name": "DigitalTransformationsvgIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__DigitalTransformationsvg.tsx"
+        },
+        {
+          "id": "eANQQq42rT",
+          "name": "JklogosvgIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Jklogosvg.tsx"
+        },
+        {
+          "id": "1oSF3x1c8",
+          "name": "CompanysvgIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Companysvg.tsx"
+        },
+        {
+          "id": "wlzEQnMcH",
+          "name": "DesignProcesssvgIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__DesignProcesssvg.tsx"
+        },
+        {
+          "id": "wiyW9LAHF5",
+          "name": "ThoughtProcesssvgIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__ThoughtProcesssvg.tsx"
+        },
+        {
+          "id": "NDNDmSVke",
+          "name": "SwipeCreditCardsvgIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__SwipeCreditCardsvg.tsx"
+        },
+        {
+          "id": "bSqVmvewRk",
+          "name": "SapsvgIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Sapsvg.tsx"
+        },
+        {
+          "id": "QXRVF_RuEH",
+          "name": "GroupChatsvgIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__GroupChatsvg.tsx"
+        },
+        {
+          "id": "9ykt_KUBhG",
+          "name": "CreativeCloudsvgIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__CreativeCloudsvg.tsx"
+        },
+        {
+          "id": "tskSNOJWEm",
+          "name": "Sapsvg2Icon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Sapsvg2.tsx"
+        },
+        {
+          "id": "EHU5jvQPUb",
+          "name": "ArticulatesvgIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Articulatesvg.tsx"
+        },
+        {
+          "id": "N21qvXm48Q",
+          "name": "MoodlesvgIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Moodlesvg.tsx"
+        },
+        {
+          "id": "TZEynuHm0Q",
+          "name": "Html5SvgIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Html5Svg.tsx"
+        },
+        {
+          "id": "C9cgtb0SIc",
+          "name": "DesignPencilsvgIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__DesignPencilsvg.tsx"
+        },
+        {
+          "id": "ECM3QTOfDR",
+          "name": "LightIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Light.tsx"
+        },
+        {
+          "id": "N8DdryWwMJ",
+          "name": "CreditCardsvgIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__CreditCardsvg.tsx"
+        },
+        {
+          "id": "uDNJl1L6v",
+          "name": "SmileysvgIcon",
+          "moduleFilePath": "plasmic/jorgekauffman_com/icons/PlasmicIcon__Smileysvg.tsx"
         }
       ],
       "images": [
@@ -358,6 +424,11 @@
           "id": "egy6AVJ3_",
           "name": "posters_fcc.png",
           "filePath": "plasmic/jorgekauffman_com/images/postersFccpng.jpeg"
+        },
+        {
+          "id": "JGGV_dloQu",
+          "name": "jk_placeholder_HD.svg",
+          "filePath": "plasmic/jorgekauffman_com/images/jkPlaceholderHDsvg.svg"
         }
       ],
       "projectApiToken": "mE2sayCj78h2A18AgT0qPJ9MfnHhlpvEqAQVH6l0G0hB0abU4dZTsusUWvRzDdL4uQhxIHDqhO0dVUaxpdCcw"
@@ -376,6 +447,6 @@
   "gatsbyConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.145",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.145/dist/plasmic.schema.json"
+  "cliVersion": "0.1.149",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.149/dist/plasmic.schema.json"
 }

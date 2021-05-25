@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.box__oRtqd {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding: 1em /* plasmic-token: iDgJbQRux */;
+  margin: 5% /* plasmic-token: 6CpGymwRO */;
+}
+.box__wcJQn {
+  font-size: 2em /* plasmic-token: 6pX1vr0nUD */;
+  font-weight: 700;
+  padding: 0.5em /* plasmic-token: MmbfocG2p */;
+}
+.box___0AjYe {
+  position: relative;
+  text-align: left;
+  font-weight: 400;
+  line-height: 1.8;
+  height: 100%;
+  min-height: 0;
+}

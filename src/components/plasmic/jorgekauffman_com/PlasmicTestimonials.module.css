@@ -1,14 +1,27 @@
 .root {
-  display: inline-flex;
-  flex-direction: column;
+  display: flex;
   position: relative;
-  width: auto;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.box__k6XyN {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   height: auto;
+  min-width: 0;
+  padding: 1em /* plasmic-token: iDgJbQRux */;
 }
 .box__j9DbV {
+  font-size: 2em /* plasmic-token: 6pX1vr0nUD */;
+  font-weight: 700;
   position: relative;
   height: auto;
 }
 .box__efcLh {
   position: relative;
+  font-size: 1.2em /* plasmic-token: zdMCU2VgjIu */;
+  font-weight: 500;
+  color: #8224e3 /* plasmic-token: ra9Gw4w7h */;
 }

@@ -5,11 +5,11 @@
 import React from "react"
 import { classNames } from "@plasmicapp/react-web"
 
-export type Icon6IconProps = React.ComponentProps<"svg"> & {
+export type ChatIconProps = React.ComponentProps<"svg"> & {
   title?: string
 }
 
-export function Icon6Icon(props: Icon6IconProps) {
+export function ChatIcon(props: ChatIconProps) {
   const { className, style, title, ...restProps } = props
   return (
     <svg
@@ -25,25 +25,17 @@ export function Icon6Icon(props: Icon6IconProps) {
     >
       {title && <title>{title}</title>}
 
-      <path d={"M12 14l9-5-9-5-9 5 9 5z"}></path>
-
-      <path
-        d={
-          "M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-        }
-      ></path>
-
       <path
         strokeLinecap={"round"}
         strokeLinejoin={"round"}
         strokeWidth={"2"}
         d={
-          "M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+          "M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"
         }
       ></path>
     </svg>
   )
 }
 
-export default Icon6Icon
+export default ChatIcon
 /* prettier-ignore-end */

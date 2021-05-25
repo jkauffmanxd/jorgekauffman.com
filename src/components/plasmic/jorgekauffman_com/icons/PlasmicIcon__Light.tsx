@@ -5,37 +5,37 @@
 import React from "react"
 import { classNames } from "@plasmicapp/react-web"
 
-export type Icon5IconProps = React.ComponentProps<"svg"> & {
+export type LightIconProps = React.ComponentProps<"svg"> & {
   title?: string
 }
 
-export function Icon5Icon(props: Icon5IconProps) {
+export function LightIcon(props: LightIconProps) {
   const { className, style, title, ...restProps } = props
   return (
     <svg
       xmlns={"http://www.w3.org/2000/svg"}
-      className={classNames("plasmic-default__svg", className, "w-6 h-6")}
       fill={"none"}
       stroke={"currentColor"}
+      strokeWidth={"2"}
+      strokeLinecap={"round"}
+      strokeLinejoin={"round"}
       viewBox={"0 0 24 24"}
       height={"1em"}
       width={"1em"}
+      className={classNames("plasmic-default__svg", className)}
       style={style}
       {...restProps}
     >
       {title && <title>{title}</title>}
 
       <path
-        strokeLinecap={"round"}
-        strokeLinejoin={"round"}
-        strokeWidth={"2"}
         d={
-          "M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"
+          "M9 18h6m-5 4h4m1.09-8c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0018 8 6 6 0 006 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 018.91 14"
         }
       ></path>
     </svg>
   )
 }
 
-export default Icon5Icon
+export default LightIcon
 /* prettier-ignore-end */

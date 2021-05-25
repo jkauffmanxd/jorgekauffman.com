@@ -6,6 +6,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  flex-wrap: wrap;
   min-width: 0;
   min-height: 0;
   background: #ffffff;
@@ -13,17 +14,16 @@
 .header:global(.__wab_instance) {
   position: relative;
 }
-.landing:global(.__wab_instance) {
+.whoWhat:global(.__wab_instance) {
   position: relative;
 }
 .how:global(.__wab_instance) {
   position: relative;
-  width: auto;
 }
-.why:global(.__wab_instance) {
+.offering:global(.__wab_instance) {
   position: relative;
 }
-.skill:global(.__wab_instance) {
+.why:global(.__wab_instance) {
   position: relative;
 }
 .thinking:global(.__wab_instance) {
@@ -31,23 +31,84 @@
 }
 .clients:global(.__wab_instance) {
   position: relative;
+  align-self: center;
 }
-.svg__qkqhK {
+.svg__afMbO {
   position: relative;
   object-fit: cover;
   width: 1em;
   height: 1em;
 }
-.svg__twClu {
+.svg__vf67Y {
   position: relative;
   object-fit: cover;
   width: 1em;
   height: 1em;
 }
-.cta:global(.__wab_instance) {
+.svg__k90D4 {
   position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__knLgb {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__h9Uw3 {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__arZzO {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg___0Uugl {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg___8GrgZ {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__uCDjM {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg___8MiXh {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__weRqf {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__arivg {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
 }
 .testimonials:global(.__wab_instance) {
+  position: relative;
+}
+.cta:global(.__wab_instance) {
   position: relative;
 }
 .footer:global(.__wab_instance) {

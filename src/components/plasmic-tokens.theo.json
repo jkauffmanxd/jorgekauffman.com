@@ -1,6 +1,16 @@
 {
   "props": [
     {
+      "name": "5% Margin | Sections",
+      "type": "spacing",
+      "value": "5%",
+      "category": "spacing",
+      "meta": {
+        "projectId": "ajBd7QwKoQEZw4eSnuM8eE",
+        "id": "6CpGymwRO"
+      }
+    },
+    {
       "name": "Black",
       "type": "color",
       "value": "#535353",
@@ -28,6 +38,86 @@
       "meta": {
         "projectId": "ajBd7QwKoQEZw4eSnuM8eE",
         "id": "zM-ibApSU"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken",
+      "type": "color",
+      "value": "#FFFFFF",
+      "category": "color",
+      "meta": {
+        "projectId": "ajBd7QwKoQEZw4eSnuM8eE",
+        "id": "vBAbL-4ar"
+      }
+    },
+    {
+      "name": "h1",
+      "type": "fontsize",
+      "value": "2em",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "ajBd7QwKoQEZw4eSnuM8eE",
+        "id": "6pX1vr0nUD"
+      }
+    },
+    {
+      "name": "h3",
+      "type": "fontsize",
+      "value": "1.6em",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "ajBd7QwKoQEZw4eSnuM8eE",
+        "id": "wsGBnSpx1v8"
+      }
+    },
+    {
+      "name": "h5",
+      "type": "fontsize",
+      "value": "1.2em",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "ajBd7QwKoQEZw4eSnuM8eE",
+        "id": "zdMCU2VgjIu"
+      }
+    },
+    {
+      "name": "heading",
+      "type": "spacing",
+      "value": "0.5em",
+      "category": "spacing",
+      "meta": {
+        "projectId": "ajBd7QwKoQEZw4eSnuM8eE",
+        "id": "MmbfocG2p"
+      }
+    },
+    {
+      "name": "hero",
+      "type": "fontsize",
+      "value": "3em",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "ajBd7QwKoQEZw4eSnuM8eE",
+        "id": "JKe_JQE9gCG"
+      }
+    },
+    {
+      "name": "p",
+      "type": "fontsize",
+      "value": "1em",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "ajBd7QwKoQEZw4eSnuM8eE",
+        "id": "PSJeyTfie5-"
+      }
+    },
+    {
+      "name": "section",
+      "type": "spacing",
+      "value": "1em",
+      "category": "spacing",
+      "meta": {
+        "projectId": "ajBd7QwKoQEZw4eSnuM8eE",
+        "id": "iDgJbQRux"
       }
     },
     {

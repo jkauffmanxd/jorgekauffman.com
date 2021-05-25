@@ -5,6 +5,7 @@ import {
   PlasmicHeader,
   DefaultHeaderProps,
 } from "./plasmic/jorgekauffman_com/PlasmicHeader"
+import { HTMLElementRefOf } from "@plasmicapp/react-web"
 
 // Your component props start with props for variants and slots you defined
 // in Plasmic, but you can add more here, like event handlers that you can
@@ -21,7 +22,7 @@ import {
 // total control over the props for your component.
 interface HeaderProps extends DefaultHeaderProps {}
 
-function Header(props: HeaderProps) {
+function Header_(props: HeaderProps, ref: HTMLElementRefOf<"div">) {
   // Use PlasmicHeader to render this component as it was
   // designed in Plasmic, by activating the appropriate variants,
   // attaching the appropriate event handlers, etc.  You
@@ -36,7 +37,9 @@ function Header(props: HeaderProps) {
   //
   // By default, we are just piping all HeaderProps here, but feel free
   // to do whatever works for you.
-  return <PlasmicHeader {...props} />
+
+  return <PlasmicHeader root={{ ref }} {...props} />
 }
 
+const Header = React.forwardRef(Header_)
 export default Header

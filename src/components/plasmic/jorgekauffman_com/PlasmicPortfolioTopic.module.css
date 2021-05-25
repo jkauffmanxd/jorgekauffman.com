@@ -11,7 +11,7 @@
 .box__s34N7 {
   display: flex;
   position: relative;
-  flex-direction: row;
+  flex-direction: column;
   align-items: stretch;
   justify-content: center;
   align-self: center;
@@ -23,6 +23,10 @@
   position: relative;
   align-self: center;
 }
+.slotChildren {
+  text-align: left;
+  white-space: pre-wrap;
+}
 .svg___9Pmst {
   position: relative;
   object-fit: cover;
@@ -31,39 +35,8 @@
   flex-shrink: 0;
   height: 1em;
 }
-.box__q61Rk {
-  position: relative;
-  width: auto;
-  align-self: center;
-  display: inline-flex;
-  flex-direction: row;
-}
-.slotChildren {
-  text-align: left;
-  white-space: pre-wrap;
-}
-.img__fgVhN {
+.img___7TQb {
   position: relative;
   object-fit: cover;
-  align-self: center;
-}
-.img__wqNc3 {
-  position: relative;
-  object-fit: cover;
-}
-.img___0Do5R {
-  position: relative;
-  object-fit: cover;
-}
-.img__reRkV {
-  position: relative;
-  object-fit: cover;
-}
-.img__bBpx1 {
-  position: relative;
-  object-fit: cover;
-}
-.img__gyS8G {
-  position: relative;
-  object-fit: cover;
+  width: 33%;
 }

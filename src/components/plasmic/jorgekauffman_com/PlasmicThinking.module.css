@@ -1,14 +1,27 @@
 .root {
-  display: inline-flex;
-  flex-direction: column;
+  display: flex;
   position: relative;
-  width: auto;
-  height: auto;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  min-width: 0;
+}
+.box__jlrus {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 5% /* plasmic-token: 6CpGymwRO */;
 }
 .box__bTfd2 {
+  font-size: 2em /* plasmic-token: 6pX1vr0nUD */;
+  font-weight: 700;
   position: relative;
+  text-align: left;
 }
 .box__te6Eh {
+  font-size: 1.6em /* plasmic-token: wsGBnSpx1v8 */;
+  font-weight: 600;
   position: relative;
 }
 .box__qazGq {
@@ -16,6 +29,8 @@
   text-align: left;
 }
 .box___52KC8 {
+  font-size: 1.6em /* plasmic-token: wsGBnSpx1v8 */;
+  font-weight: 600;
   position: relative;
 }
 .box__sDWvx {
@@ -23,6 +38,8 @@
   text-align: left;
 }
 .box__faX9D {
+  font-size: 1.6em /* plasmic-token: wsGBnSpx1v8 */;
+  font-weight: 600;
   position: relative;
 }
 .box__fnPgq {
@@ -30,6 +47,8 @@
   text-align: left;
 }
 .box__sv4Yf {
+  font-size: 1.6em /* plasmic-token: wsGBnSpx1v8 */;
+  font-weight: 600;
   position: relative;
 }
 .box__zcjtf {
@@ -38,4 +57,11 @@
 }
 .box___3GFez {
   position: relative;
+  font-size: 1.2em /* plasmic-token: zdMCU2VgjIu */;
+  font-weight: 500;
+  align-self: auto;
+  text-align: left;
+  padding: 0.5em /* plasmic-token: MmbfocG2p */;
+  border-style: solid;
+  border-color: #535353 /* plasmic-token: 9LDvOe-gg */;
 }

@@ -4,31 +4,39 @@
   position: relative;
   width: 100%;
   height: auto;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
   min-width: 0;
-  padding: 1em;
+  padding: 1em /* plasmic-token: iDgJbQRux */;
 }
-.box__vYkOy {
-  position: relative;
-}
-.box__n9Cq {
+.box {
   display: flex;
   position: relative;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
   align-self: center;
-  align-content: center;
   overflow: hidden;
-  width: 100%;
-  height: 100%;
-  min-width: 0;
-  min-height: 0;
-  padding: 0em;
-  margin: 0px;
+  border-radius: 0.5em;
+  padding: 1em;
+  margin: 0.5em;
+  background: #ffffff;
 }
-.slotChildren {
+.box > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-left: calc(0px - 0.5em);
+  width: calc(100% + 0.5em);
+  margin-top: calc(0px - 0.25em);
+  height: calc(100% + 0.25em);
+}
+.box > :global(.__wab_flex-container) > *,
+.box > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 0.5em;
+  margin-top: 0.25em;
+}
+.slotClient {
   text-align: center;
   font-size: 3em;
 }
@@ -39,11 +47,121 @@
   flex-shrink: 0;
   height: 1em;
 }
-.slotChildren2 {
+.slotClient2 {
   text-align: center;
   font-size: 3em;
 }
-.svg__tnx2 {
+.svg__x8KuW {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}
+.slotClient3 {
+  text-align: center;
+  font-size: 3em;
+}
+.svg__ldDmj {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}
+.slotClient4 {
+  text-align: center;
+  font-size: 3em;
+}
+.svg__pmCk {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}
+.slotClient5 {
+  text-align: center;
+  font-size: 3em;
+}
+.svg__sLxOn {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}
+.slotClient6 {
+  text-align: center;
+  font-size: 3em;
+}
+.svg___74DBs {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}
+.slotClient7 {
+  text-align: center;
+  font-size: 3em;
+}
+.svg__b0Ypl {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}
+.slotClient8 {
+  text-align: center;
+  font-size: 3em;
+}
+.svg__q5QCf {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}
+.slotClient9 {
+  text-align: center;
+  font-size: 3em;
+}
+.svg___4C2Uf {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}
+.slotClient10 {
+  text-align: center;
+  font-size: 3em;
+}
+.svg__mq4Bf {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}
+.slotClient11 {
+  text-align: center;
+  font-size: 3em;
+}
+.svg__ryLOy {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}
+.slotClient12 {
+  text-align: center;
+  font-size: 3em;
+}
+.svg__iAo7N {
   position: relative;
   object-fit: cover;
   width: 1em;
