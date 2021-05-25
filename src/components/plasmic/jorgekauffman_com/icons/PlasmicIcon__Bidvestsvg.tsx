@@ -5,11 +5,11 @@
 import React from "react"
 import { classNames } from "@plasmicapp/react-web"
 
-export type Bidvestsvg2IconProps = React.ComponentProps<"svg"> & {
+export type BidvestsvgIconProps = React.ComponentProps<"svg"> & {
   title?: string
 }
 
-export function Bidvestsvg2Icon(props: Bidvestsvg2IconProps) {
+export function BidvestsvgIcon(props: BidvestsvgIconProps) {
   const { className, style, title, ...restProps } = props
   return (
     <svg
@@ -136,5 +136,5 @@ export function Bidvestsvg2Icon(props: Bidvestsvg2IconProps) {
   )
 }
 
-export default Bidvestsvg2Icon
+export default BidvestsvgIcon
 /* prettier-ignore-end */

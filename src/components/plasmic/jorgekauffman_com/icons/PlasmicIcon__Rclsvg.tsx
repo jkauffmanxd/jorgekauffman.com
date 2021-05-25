@@ -5,11 +5,11 @@
 import React from "react"
 import { classNames } from "@plasmicapp/react-web"
 
-export type Rclsvg4IconProps = React.ComponentProps<"svg"> & {
+export type RclsvgIconProps = React.ComponentProps<"svg"> & {
   title?: string
 }
 
-export function Rclsvg4Icon(props: Rclsvg4IconProps) {
+export function RclsvgIcon(props: RclsvgIconProps) {
   const { className, style, title, ...restProps } = props
   return (
     <svg
@@ -54,5 +54,5 @@ export function Rclsvg4Icon(props: Rclsvg4IconProps) {
   )
 }
 
-export default Rclsvg4Icon
+export default RclsvgIcon
 /* prettier-ignore-end */
